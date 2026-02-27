@@ -17,7 +17,7 @@ axum = ["dep:async-trait", "dep:axum-core"]
 
 [dependencies]
 async-trait = { version = "0.1.81", optional = true }
-axum-core = { version = "0.4.3", optional = true }
+axum-core = { version = "0.5.6", optional = true }
 base64 = "0.22.1"
 futures-util = "0.3.30"
 hmac = "0.12.1"
@@ -26,7 +26,7 @@ rand = "0.8.5"
 secstr = "0.5.1"
 sha2 = "0.10.8"
 thiserror = "1.0.63"
-tower-cookies = "0.10.0"
+tower-cookies = "0.11.0"
 tower-layer = "0.3.3"
 tower-service = "0.3.3"
 tracing = { version = "0.1.40", features = ["log"] }
